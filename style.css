@@ -1,0 +1,31 @@
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+.link{
+  color: azure;
+  text-decoration: none;
+  background-image: linear-gradient(to left, red,orangered);
+  padding: 10px;
+  border-radius: 10px;
+}
+h1{
+  font-size: 50px;
+  color: rgb(87, 81, 81);
+}
+.khabar{
+  color: orangered;
+}
+.paragraph{
+  color: rgb(97, 96, 96);
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.div-paragraph{
+  width: 50%;
+}
+.div-img{
+  width: 100%;
+}
