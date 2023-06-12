@@ -1,31 +1,144 @@
-section{
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 20px;
 }
-.link{
+
+.link {
   color: azure;
   text-decoration: none;
-  background-image: linear-gradient(to left, red,orangered);
+  background-image: linear-gradient(to left, rgb(67, 142, 255), rgb(0, 255, 221));
   padding: 10px;
   border-radius: 10px;
 }
-h1{
+
+h1 {
   font-size: 50px;
   color: rgb(87, 81, 81);
+  font-weight: 900;
 }
-.khabar{
-  color: orangered;
+
+.khabar {
+  color: rgb(0, 183, 255);
 }
-.paragraph{
+
+.paragraph {
   color: rgb(97, 96, 96);
   font-size: 20px;
   margin-bottom: 50px;
 }
-.div-paragraph{
+
+.div-paragraph {
   width: 50%;
 }
-.div-img{
+
+.div-img {
   width: 100%;
+}
+
+.nicher-site {
+  background-color: rgb(157, 242, 245);
+  text-align: justify;
+  gap: 100px;
+  background-image: url(frame_57.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kono-taina {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.kono-taina1 {
+  margin-bottom: 20px;
+}
+
+.kono-taina2 {
+  margin: 0 auto 40px auto;
+  max-width: 600px;
+}
+
+.last1 {
+  text-align: center;
+  box-shadow: 0px 0px 13px 3px rgb(212, 212, 212);
+  width: 50%;
+  margin-left: 100px;
+  margin-right: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.last2 {
+  text-align: center;
+  box-shadow: 0px 0px 13px 3px rgb(212, 212, 212);
+  width: 50%;
+  margin-right: 100px;
+  margin-left: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.lastp {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lastpp {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.last1 img {
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.last2 img {
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.recipie {
+  padding: 25px;
+}
+
+.last-section {
+  margin: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px 0px lightgray;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.last-h1 {
+  color: black;
+}
+
+.last-h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  color: gray;
+}
+
+.last-section2 {
+  padding: 75px;
+  background-color: black;
+  color: white;
+}
+
+.last-span {
+  color: aqua;
 }
